@@ -27,9 +27,9 @@ Download and install required software:
 
     ./scripts/install_packages.sh
 
-Download and preprocess data:
+Download my own Dataset (Romeo and Juliet) and preprocess it:
 
-    ./scripts/download_data.sh
+    ./scripts/download_custom_data.sh
 
 Train a model:
 

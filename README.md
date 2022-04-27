@@ -27,9 +27,9 @@ Download and install required software:
 
     ./scripts/install_packages.sh
 
-Download my own Dataset (Romeo and Juliet) and preprocess it:
+Download my own Dataset (Emma) and preprocess it:
 
-    ./scripts/download_custom_data.sh
+    ./scripts/download_custom_data2.sh
 
 Train a model:
 
@@ -39,4 +39,4 @@ The training process can be interrupted at any time, and the best checkpoint wil
 
 Generate (sample) some text from a trained model with:
 
-    ./scripts/generate.sh
+    ./scripts/generate_custom.sh

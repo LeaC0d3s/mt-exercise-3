@@ -14,7 +14,7 @@ This repo shows how to train neural language models using [Pytorch example code]
 
 Clone this repository in the desired place:
 
-    git clone https://github.com/emmavdbold/mt-exercise-3
+    git clone https://github.com/LeaC0d3s/mt-exercise-3.git
     cd mt-exercise-3
 
 Create a new virtualenv that uses Python 3. Please make sure to run this command outside of any virtual Python environment:
@@ -33,10 +33,16 @@ Download my own Dataset (Emma) and preprocess it:
 
 Train a model:
 
-    ./scripts/train.sh
+    ./scripts/train_custom.sh
 
+Adjust parameters manually 5 times to reproduce the chart/table perplexity scores and saved models:
+    - --dropout 0 , --save $models/model0.pt
+    - --dropout 0.3 , --save $models/model0_3.pt
+    - **--dropout 0.5 , --save $models/model0_5.pt** (Best Model)
+    - --dropout 0.6 , --save $models/model0_6.pt
+    - --dropout 0.9 , --save $models/model0_9.pt
 The training process can be interrupted at any time, and the best checkpoint will always be saved.
 
-Generate (sample) some text from a trained model with:
-
+Generate (sample) some text from the trained model (0.5 dropout) with:
+   
     ./scripts/generate_custom.sh

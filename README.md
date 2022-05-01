@@ -36,11 +36,13 @@ Train a model:
     ./scripts/train_custom.sh
 
 Adjust parameters manually 5 times to reproduce the chart/table perplexity scores and saved models:
+
     - --dropout 0 , --save $models/model0.pt
     - --dropout 0.3 , --save $models/model0_3.pt
-    - **--dropout 0.5 , --save $models/model0_5.pt** (Best Model)
+    - --dropout 0.5 , --save $models/model0_5.pt (Best Model --> used for generating sample text)
     - --dropout 0.6 , --save $models/model0_6.pt
     - --dropout 0.9 , --save $models/model0_9.pt
+   
 The training process can be interrupted at any time, and the best checkpoint will always be saved.
 
 Generate (sample) some text from the trained model (0.5 dropout) with:

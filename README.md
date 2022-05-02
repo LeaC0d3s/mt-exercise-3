@@ -58,5 +58,7 @@ Go to the repository:
 - replace the current generate.py file (mt-exercise-3/tools/pytorch-examples/word_language_model/generate.py) with the new generate.py file from the mt_task3_examples repository
 - After you replaced the old with the new generate.py file --> Test custom inputs on your trained model with the following script:
 
+Sample Inputs for word generation:
+
 	./scripts/generate_custom_task3.sh
 

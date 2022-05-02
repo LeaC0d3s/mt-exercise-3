@@ -57,7 +57,7 @@ Generate (sample) some text from the best trained model (0.5 dropout) with:
    
     ./scripts/generate_custom.sh
 
-**Important**: If you want enter a custom starting string for the word generation sample, follow the following steps:
+**Important**: If you want enter a custom input string for the word generation sample, follow the following steps:
 
 Go to the repository:
 	https://github.com/LeaC0d3s/mt_task3_examples.git

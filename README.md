@@ -16,12 +16,20 @@ Clone this repository in the desired place:
 
     git clone https://github.com/LeaC0d3s/mt-exercise-3.git
     cd mt-exercise-3
+    
+If you encounter an error-message, because you don't have permission to run the scripts in the repo. etc., I recommend trying the following first befor running the scripts:
+
+	cd scripts
+	chmod u+x *.sh
+	chmod u+x *.py
+	cd ..
 
 Create a new virtualenv that uses Python 3. Please make sure to run this command outside of any virtual Python environment:
 
     ./scripts/make_virtualenv.sh
 
 **Important**: Then activate the env by executing the `source` command that is output by the shell script above.
+
 
 Download and install required software:
 

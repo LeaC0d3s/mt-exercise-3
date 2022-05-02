@@ -27,7 +27,7 @@ Download and install required software:
 
     ./scripts/install_packages.sh
 
-Download my own Dataset (Emma) and preprocess it:
+Download my own Dataset (Emma by Jane Austen from the Project Gutenberg website) and preprocess it:
 
     ./scripts/download_data_custom.sh
 
